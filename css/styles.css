@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Impossibilium BRK';
+  src: url("../fonts/transfonter.org-20210301-193119/ImpossibiliumBRK.woff2") format("woff2"), url("../fonts/transfonter.org-20210301-193119/ImpossibiliumBRK.woff") format("woff"), url("../fonts/transfonter.org-20210301-193119/ImpossibiliumBRK.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #000;
+}
+
+ul li a {
+  color: #e27c97;
+  font-family: 'Impossibilium BRK';
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.overlay {
+  pointer-events: none;
+  background: url("../images/TEXTURE_OVERLAY.jpg");
+  mix-blend-mode: lighten;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 100;
+}
+/*# sourceMappingURL=styles.css.map */

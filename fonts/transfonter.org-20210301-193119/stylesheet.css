@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Impossibilium BRK';
+    src: url('ImpossibiliumBRK.woff2') format('woff2'),
+        url('ImpossibiliumBRK.woff') format('woff'),
+        url('ImpossibiliumBRK.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
