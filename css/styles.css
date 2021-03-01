@@ -8,6 +8,7 @@
 
 body {
   background-color: #000;
+  opacity: 0;
 }
 
 ul li a {
@@ -19,9 +20,9 @@ ul li a {
 
 .overlay {
   pointer-events: none;
-  background: url("../images/TEXTURE_OVERLAY.jpg");
-  mix-blend-mode: lighten;
-  opacity: 0.3;
+  background: url("../images/TEXTURE_OVERLAY_smaller.jpg");
+  mix-blend-mode: hard-light;
+  opacity: 0.4;
   top: 0;
   left: 0;
   width: 100vw;
