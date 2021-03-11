@@ -4,34 +4,35 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Talk Shpw</title>
+    <title>Talk Show</title>
     <meta name="description" content="Talk Show band website">
     <meta name="author" content="SitePoint">
-    <script>
-        window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},0);};
-    </script>
-    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/6f9890b8f7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css" integrity="sha512-wl80ucxCRpLkfaCnbM88y4AxnutbGk327762eM9E/rRTvY/ZGAHWMZrYUq66VQBYMIYDFpDdJAOGSLyIPHZ2IQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    
 </head>
 
 <body>
     <div class ="flex flex-col h-screen">
         <header>
-            <img src ="images/TALK_SHOW_LOGO.png"/>
+            <div class = "max-w-lg mx-auto py-5">
+                <img src ="images/TALK_SHOW_LOGO_white.png"/>
+            </div>
         </header>
         <main class = "flex flex-1 items-center justify-center">
-            <ul>
+            <ul class = "max-w-lg mx-auto">
                 <li><a href = "https://open.spotify.com/artist/6maphvdwLWb9tIeiFAAaE3?si=R7YgeXx6T1ylq4-oqXtezQ">listen</a></li>
                 <li><a href = "https://talkshow.bigcartel.com/">shop</a></li>
                 <li><a href = "https://www.youtube.com/channel/UCUVxUeg4OlB-rSrhpYq5isA">watch</a></li>
             </ul>
         </main>
         <footer class = "p-5 ">
-            <ul class = "socials flex justify-between max-w-lg mx-auto">
-                <li><a href = "https://open.spotify.com/artist/6maphvdwLWb9tIeiFAAaE3?si=R7YgeXx6T1ylq4-oqXtezQ">TikTok</a></li>
-                <li><a href = "https://talkshow.bigcartel.com/">Facebook</a></li>
-                <li><a href = "https://www.youtube.com/channel/UCUVxUeg4OlB-rSrhpYq5isA">Twitter</a></li>
-                <li><a href = "https://www.youtube.com/channel/UCUVxUeg4OlB-rSrhpYq5isA">Instagram</a></li>
+            <ul class = "socials flex justify-center max-w-lg mx-auto">
+                <li class = "p-3"><a href = "https://open.spotify.com/artist/6maphvdwLWb9tIeiFAAaE3?si=R7YgeXx6T1ylq4-oqXtezQ"><i class="fab fa-tiktok"></i></a></li>
+                <li class = "p-3"><a href = "https://talkshow.bigcartel.com/"><i class="fab fa-facebook-f"></i></a></li>
+                <li class = "p-3"><a href = "https://www.youtube.com/channel/UCUVxUeg4OlB-rSrhpYq5isA"><i class="fab fa-twitter"></i></a></li>
+                <li class = "p-3"><a href = "https://www.youtube.com/channel/UCUVxUeg4OlB-rSrhpYq5isA"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </footer>   
     </div>
