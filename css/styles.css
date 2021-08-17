@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Impossibilium BRK';
+  font-family: "Impossibilium BRK";
   src: url("../fonts/transfonter.org-20210301-193119/ImpossibiliumBRK.woff2") format("woff2"), url("../fonts/transfonter.org-20210301-193119/ImpossibiliumBRK.woff") format("woff"), url("../fonts/transfonter.org-20210301-193119/ImpossibiliumBRK.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -8,14 +8,55 @@
 
 body {
   background-color: #000;
-  opacity: 0;
+  font-size: 50pt;
+}
+
+ul li {
+  display: block;
 }
 
 ul li a {
-  color: #e27c97;
-  font-family: 'Impossibilium BRK';
-  letter-spacing: 1px;
+  color: #fff;
+  font-family: "Impossibilium BRK";
+  letter-spacing: 2px;
   cursor: pointer;
+  display: block;
+  position: relative;
+}
+
+ul li a:before, ul li a:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  top: 40%;
+  margin-top: -0.5px;
+  background: #fff;
+}
+
+ul li a:before {
+  left: -2.5px;
+}
+
+ul li a:after {
+  right: 2.5px;
+  background: #fff;
+  -webkit-transition: width 0.2s ease-out;
+  transition: width 0.2s ease-out;
+}
+
+ul li a:hover:before {
+  background: #fff;
+  width: 100%;
+  -webkit-transition: width 0.2s ease-out;
+  transition: width 0.2s ease-out;
+}
+
+ul li a:hover:after {
+  background: transparent;
+  width: 100%;
+  -webkit-transition: 0s;
+  transition: 0s;
 }
 
 .overlay {
